@@ -207,6 +207,27 @@ MuteAnnoying.custom = {
 	[563933] = "sound/creature/walrus/walrusattackb.ogg",
 	[563934] = "sound/creature/walrus/walrusdeath.ogg",
 	[563935] = "sound/creature/walrus/walrusaggroa.ogg",
+
+	-- Nightsaber mounts
+	[51433] = "MON_NightSaber_Attack",
+	[51434] = "MON_NightSaber_AttackCrit",
+	[51435] = "MON_NightSaber_Wound",
+	[51436] = "MON_NightSaber_WoundCrit",
+	[51437] = "MON_NightSaber_Death",
+	[51438] = "MON_NightSaber_PreAggro",
+	[51439] = "MON_NightSaber_Aggro",
+	[51440] = "MON_NightSaber_MountSpecial",
+
+	-- Manasaber mounts
+	[49731] = "MON_SaberPlayermount_Attack",
+	[49730] = "MON_SaberPlayermount_AttackCrit",
+	[49725] = "MON_SaberPlayermount_Wound",
+	[49724] = "MON_SaberPlayermount_WoundCrit",
+	[49728] = "MON_SaberPlayermount_Death",
+	[49732] = "MON_SaberPlayermount_Aggro",
+	[49784] = "MON_SaberPlayermount_Flaps",
+	[49726] = "MON_SaberPlayermount_PreAggro",
+	[49727] = "MON_SaberPlayermount_MountSpecial",
 }
 
 -- Use the following table to REMOVE sounds included in this addon from being muted. For 
