@@ -53,3 +53,21 @@ function MuteAnnoying:MuteCustomSounds()
 		MuteSoundFile(fdid)
 	end
 end
+
+local function MuteAnnoyingSlashCommand(msg, editBox)
+    local command, rest = msg:match("^(%S*)%s*(.-)$")
+    if command == "reapply" then
+        print("[MuteAnnoying] Reapplying Mutes.")
+		MuteAnnoying:MuteSounds()
+		MuteAnnoying:MuteCustomSounds()
+	elseif command == "help" then
+		print("[MuteAnnoying] Usage:")
+		print("[MuteAnnoying]     /mas reapply  (reapply mutes)")
+		print("[MuteAnnoying]     /mas help     (show list of commands)")
+    else
+        print("[MuteAnnoying] Unknown command. Type '/mas help' for a list of commands.")
+    end
+end
+
+SLASH_MUTEANNOYING1 = "/mas"
+SlashCmdList["MUTEANNOYING"] = MuteAnnoyingSlashCommand
