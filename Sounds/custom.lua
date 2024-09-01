@@ -5,7 +5,40 @@
 -- in the addon proper.  For example, this would be the place to add sounds which you
 -- find annoying, but other players may enjoy, etc.  (Note: The structure of this table 
 -- is identical to the other files found in this directory.)
+
+-- Use http://localhost:5000/dbc/?dbc=soundkitentry&build=11.0.2.56421#page=1   (WowTools application)
+-- to find the .ogg name after discovering the SoundID using the addon "Sound ID Finder" ( /sid)
+--
+-- After updating this file, apply as follows:
+-- 1.  If the Sound ID Locator window is not open, open it with /sid.  Then, click the "reset" button
+-- 2.  Use the command:  /mas reapply  (This reapplies the custom mutes in this file.)
 MuteAnnoying.custom = {
+	-- Mounts
+	[613143]  = "Sound/CREATURE/YAK/MON_Yak_MountSpecial_01.ogg", 									-- Grand Expedition Yak (summoning sound)
+	[613145]  = "Sound/CREATURE/YAK/MON_Yak_MountSpecial_02.ogg", 									-- Grand Expedition Yak (summoning sound)
+	[613147]  = "Sound/CREATURE/YAK/MON_Yak_MountSpecial_03.ogg", 									-- Grand Expedition Yak (summoning sound)
+	[5356559] = "sound/creature/StormGryphonPet/StormGryphonPet_death_5356559.ogg",					-- Algarian Stormrider (summoning sound)
+	[5356561] = "sound/creature/StormGryphonPet/StormGryphonPet_death_5356561.ogg",					-- Algarian Stormrider (summoning sound)
+	[5356563] = "sound/creature/StormGryphonPet/StormGryphonPet_death_5356563.ogg",					-- Algarian Stormrider (summoning sound)
+	[5356565] = "sound/creature/StormGryphonPet/StormGryphonPet_death_5356565.ogg",					-- Algarian Stormrider (summoning sound)
+	[5356567] = "sound/creature/StormGryphonPet/StormGryphonPet_death_5356567.ogg",					-- Algarian Stormrider (summoning sound)
+	[5356569] = "sound/creature/StormGryphonPet/StormGryphonPet_death_5356569.ogg",					-- Algarian Stormrider (summoning sound)
+	[5356571] = "sound/creature/StormGryphonPet/StormGryphonPet_death_5356571.ogg",					-- Algarian Stormrider (summoning sound)
+	[640158]  = "sound/creature/GrummleKooky/VO_Grummle_Kooky_Farewell_01.ogg",						-- Grand Expedition Yak's Transmog NPC
+	[640160]  = "sound/creature/GrummleKooky/VO_Grummle_Kooky_Farewell_02.ogg",						-- Grand Expedition Yak's Transmog NPC
+	[640162]  = "sound/creature/GrummleKooky/VO_Grummle_Kooky_Farewell_03.ogg",						-- Grand Expedition Yak's Transmog NPC
+	[640164]  = "sound/creature/GrummleKooky/VO_Grummle_Kooky_Farewell_04.ogg",						-- Grand Expedition Yak's Transmog NPC
+	[640180]  = "sound/creature/GrummleKooky/VO_Grummle_Kooky_Vendor_01.ogg",						-- Grand Expedition Yak's Transmog NPC
+	[640182]  = "sound/creature/GrummleKooky/VO_Grummle_Kooky_Vendor_02.ogg",						-- Grand Expedition Yak's Transmog NPC
+	[640184]  = "sound/creature/GrummleKooky/VO_Grummle_Kooky_Vendor_03.ogg",						-- Grand Expedition Yak's Transmog NPC
+	[640314]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Farewell_01.ogg",					-- Grand Expedition Yak's Vendor NPC
+	[640316]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Farewell_02.ogg",					-- Grand Expedition Yak's Vendor NPC
+	[640318]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Farewell_03.ogg",					-- Grand Expedition Yak's Vendor NPC
+	[640320]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Farewell_04.ogg",					-- Grand Expedition Yak's Vendor NPC
+	[640336]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Vendor_01.ogg",					-- Grand Expedition Yak's Vendor NPC
+	[640338]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Vendor_02.ogg",					-- Grand Expedition Yak's Vendor NPC
+	[640340]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Vendor_03.ogg",					-- Grand Expedition Yak's Vendor NPC
+
 	[537382] = "Sound/Ambience/WMOAmbience/LargeRoomTone.ogg",
 	[537383] = "Sound/Ambience/WMOAmbience/LargeRoomToneNew.ogg",
 	[917983] = "Sound/Ambience/ZoneAmbience/AMB_SHADOWMOON_STANDINGSTONES_LOOP.ogg",
