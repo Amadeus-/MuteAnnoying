@@ -6,7 +6,7 @@
 -- find annoying, but other players may enjoy, etc.  (Note: The structure of this table 
 -- is identical to the other files found in this directory.)
 
--- Use http://localhost:5000/dbc/?dbc=soundkitentry&build=11.0.2.56421#page=1   (WowTools application)
+-- Use http://localhost:5000/dbc/?dbc=soundkitentry   (WowTools application)
 -- to find the .ogg name after discovering the SoundID using the addon "Sound ID Finder" ( /sid)
 --
 -- After updating this file, apply as follows:
@@ -38,6 +38,33 @@ MuteAnnoying.custom = {
 	[640336]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Vendor_01.ogg",					-- Grand Expedition Yak's Vendor NPC
 	[640338]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Vendor_02.ogg",					-- Grand Expedition Yak's Vendor NPC
 	[640340]  = "sound/creature/GrummleKooky/VO_Grummle_Standard_Vendor_03.ogg",					-- Grand Expedition Yak's Vendor NPC
+
+	-- Vendor NPCs
+	[5726670] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726671] = "sound/creature/KoboldMale/KoboldFemale_greetings_5726671.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726672] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726673] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726674] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726675] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726676] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726677] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726678] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	--[5726679] = "sound/creature/KoboldMale/KoboldMale_greetings_5726670.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726680] = "sound/creature/KoboldMale_pissed_5726680.ogg",										-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726681] = "sound/creature/KoboldFemale/KoboldFemale_pissed_5726681.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726682] = "sound/creature/KoboldMale/KoboldMale_farewell_5726682.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726683] = "sound/creature/KoboldFemale/KoboldFemale_farewell_5726683.ogg",					-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726684] = "sound/creature/KoboldMale/KoboldMale_farewell_5726684.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726685] = "sound/creature/KoboldFemale/KoboldFemale_farewell_5726685.ogg",					-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726686] = "sound/creature/KoboldMale/KoboldMale_farewell_5726686.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726687] = "sound/creature/KoboldFemale/KoboldFemale_farewell_5726687.ogg",					-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726688] = "sound/creature/KoboldMale/KoboldMale_greetings_5726688.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726689] = "sound/creature/KoboldFemale/KoboldFemale_greetings_5726689.ogg",					-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726690] = "sound/creature/KoboldMale/KoboldMale_greetings_5726690.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726691] = "sound/creature/KoboldFemale/KoboldFemale_greetings_5726691.ogg",					-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726692] = "sound/creature/KoboldMale/KoboldMale_greetings_5726692.ogg",						-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+	[5726693] = "sound/creature/KoboldFemale/KoboldFemale_greetings_5726693.ogg",					-- Kobold Vendors and Quest NPCs in The Ringing Deeps
+
 
 	[537382] = "Sound/Ambience/WMOAmbience/LargeRoomTone.ogg",
 	[537383] = "Sound/Ambience/WMOAmbience/LargeRoomToneNew.ogg",
