@@ -8,11 +8,38 @@
 
 -- Use http://localhost:5000/dbc/?dbc=soundkitentry   (WowTools application)
 -- to find the .ogg name after discovering the SoundID using the addon "Sound ID Finder" ( /sid)
+-- The DB is "SoundKitEntry" and and the ID# used below is the "FileDataID" value. 
 --
 -- After updating this file, apply as follows:
 -- 1.  If the Sound ID Locator window is not open, open it with /sid.  Then, click the "reset" button
 -- 2.  Use the command:  /mas reapply  (This reapplies the custom mutes in this file.)
 MuteAnnoying.custom = {
+	-- Narrators
+	[5758985] = "VO_110_Architect_Ruffious_14_M",													-- Darkhaul Ravine Narrator
+	[5758986] = "VO_110_Architect_Ruffious_15_M",													-- Darkhaul Ravine Narrator
+	[5758987] = "VO_110_Architect_Ruffious_16_M",													-- Darkhaul Ravine Narrator
+	[5758988] = "VO_110_Architect_Ruffious_17_M",													-- Darkhaul Ravine Narrator
+	[5758989] = "VO_110_Architect_Ruffious_18_M",													-- Darkhaul Ravine Narrator
+	[5758990] = "VO_110_Architect_Ruffious_19_M",													-- Darkhaul Ravine Narrator
+	[5758991] = "VO_110_Architect_Ruffious_20_M",													-- Darkhaul Ravine Narrator
+	[5758992] = "VO_110_Architect_Ruffious_21_M",													-- Darkhaul Ravine Narrator
+	[5758993] = "VO_110_Architect_Ruffious_22_M",													-- Darkhaul Ravine Narrator
+	[5758994] = "VO_110_Architect_Ruffious_23_M",													-- Darkhaul Ravine Narrator
+	[5758995] = "VO_110_Architect_Ruffious_24_M",													-- Darkhaul Ravine Narrator
+	[5758996] = "VO_110_Architect_Ruffious_25_M",													-- Darkhaul Ravine Narrator
+	[5758997] = "VO_110_Foreman_Uzjax_19_M",														-- Darkhaul Ravine Narrator
+	[5758998] = "VO_110_Foreman_Uzjax_20_M",														-- Darkhaul Ravine Narrator
+	[5758999] = "VO_110_Foreman_Uzjax_21_M",														-- Darkhaul Ravine Narrator
+	[5759000] = "VO_110_Foreman_Uzjax_22_M",														-- Darkhaul Ravine Narrator
+	[5759001] = "VO_110_Foreman_Uzjax_23_M",														-- Darkhaul Ravine Narrator
+	[5759002] = "VO_110_Foreman_Uzjax_24_M",														-- Darkhaul Ravine Narrator
+	[5759003] = "VO_110_Foreman_Uzjax_25_M",														-- Darkhaul Ravine Narrator
+	[5759004] = "VO_110_Foreman_Uzjax_26_M",														-- Darkhaul Ravine Narrator
+	[5759005] = "VO_110_Foreman_Uzjax_27_M",														-- Darkhaul Ravine Narrator
+	[5759006] = "VO_110_Foreman_Uzjax_28_M",														-- Darkhaul Ravine Narrator
+	[5759007] = "VO_110_Foreman_Uzjax_29_M",														-- Darkhaul Ravine Narrator
+	[5759008] = "VO_110_Foreman_Uzjax_30_M",														-- Darkhaul Ravine Narrator
+
 	-- Mounts
 	[613143]  = "Sound/CREATURE/YAK/MON_Yak_MountSpecial_01.ogg", 									-- Grand Expedition Yak (summoning sound)
 	[613145]  = "Sound/CREATURE/YAK/MON_Yak_MountSpecial_02.ogg", 									-- Grand Expedition Yak (summoning sound)
